@@ -1,8 +1,11 @@
-public class Bus extends Vehicle {
+public class Bus extends Vehicle implements Stoppable {
   public Bus(int crewNum) {
     this.crewNum = crewNum;
   }
   public void showCrewNum() {
     System.out.println("バスの乗客：" + crewNum + "名");
+  }
+  public void stop() {
+    System.out.println("次止まります");
   }
 }
