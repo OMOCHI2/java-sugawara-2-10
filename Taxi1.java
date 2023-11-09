@@ -8,6 +8,6 @@ public class Taxi1 extends Car1 {
     this.price += 80;
   }
   public void display() {
-    System.out.println("料金は" + this.price + "円です");
+    System.out.println("料金は" + this.price + "円");
   }
 }
